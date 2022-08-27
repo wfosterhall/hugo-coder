@@ -24,7 +24,8 @@
     background-color: $bg-color;
     border: 1px solid $alt-bg-color;
     border-radius: .5rem;
-  
+   
+    opacity: 0.8;
     .card-image {
       height: 200px;
       margin: auto;
@@ -44,6 +45,8 @@
     .card-body {
       flex: 1 1 auto;
       padding: 1.5rem 2rem;
+      border-top: 1px solid $alt-bg-color;
+      border-bottom: 1px solid $alt-bg-color;
 
       .card-title {
         margin: 0 0 .75rem 0;
