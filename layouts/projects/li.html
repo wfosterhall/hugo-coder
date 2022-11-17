@@ -7,7 +7,7 @@
 
         {{ warnf "%q" .Title }}
         
-        {{ $banner := $image.Fill "400x200"}}
+        {{ $banner := $image.Fill "400x200 Center"}}
         <img class="card-image" src="{{ $banner.Permalink }}" alt="{{ .Title }}">
         
         <div class="card-tags">
